@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cp-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cpList/CpListWebPart.js",
+          "manifest": "./src/webparts/cpList/CpListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CpListWebPartStrings": "lib/webparts/cpList/loc/{locale}.js"
+  }
+}
